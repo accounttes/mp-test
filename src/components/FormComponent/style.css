@@ -1,0 +1,81 @@
+.form-container {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: black;
+  padding-right: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.label {
+  margin-bottom: 4px;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.select-visible {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: white;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  z-index: 1000;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+}
